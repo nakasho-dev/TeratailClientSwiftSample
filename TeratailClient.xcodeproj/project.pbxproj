@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DD86081FFE4756005CAA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86071FFE4756005CAA9A /* AppDelegate.swift */; };
+		89DD860A1FFE4756005CAA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86091FFE4756005CAA9A /* ViewController.swift */; };
+		89DD860D1FFE4756005CAA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DD860B1FFE4756005CAA9A /* Main.storyboard */; };
+		89DD860F1FFE4756005CAA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DD860E1FFE4756005CAA9A /* Assets.xcassets */; };
+		89DD86121FFE4756005CAA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DD86101FFE4756005CAA9A /* LaunchScreen.storyboard */; };
+		89DD861D1FFE4756005CAA9A /* TeratailClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD861C1FFE4756005CAA9A /* TeratailClientTests.swift */; };
+		89DD86281FFE4756005CAA9A /* TeratailClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86271FFE4756005CAA9A /* TeratailClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DD86191FFE4756005CAA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DD85FC1FFE4755005CAA9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DD86031FFE4756005CAA9A;
+			remoteInfo = TeratailClient;
+		};
+		89DD86241FFE4756005CAA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DD85FC1FFE4755005CAA9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DD86031FFE4756005CAA9A;
+			remoteInfo = TeratailClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89DD86041FFE4756005CAA9A /* TeratailClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeratailClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DD86071FFE4756005CAA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89DD86091FFE4756005CAA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89DD860C1FFE4756005CAA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89DD860E1FFE4756005CAA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DD86111FFE4756005CAA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89DD86131FFE4756005CAA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DD86181FFE4756005CAA9A /* TeratailClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeratailClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DD861C1FFE4756005CAA9A /* TeratailClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeratailClientTests.swift; sourceTree = "<group>"; };
+		89DD861E1FFE4756005CAA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DD86231FFE4756005CAA9A /* TeratailClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeratailClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DD86271FFE4756005CAA9A /* TeratailClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeratailClientUITests.swift; sourceTree = "<group>"; };
+		89DD86291FFE4756005CAA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DD86011FFE4756005CAA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DD86151FFE4756005CAA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DD86201FFE4756005CAA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DD85FB1FFE4755005CAA9A = {
+			isa = PBXGroup;
+			children = (
+				89DD86061FFE4756005CAA9A /* TeratailClient */,
+				89DD861B1FFE4756005CAA9A /* TeratailClientTests */,
+				89DD86261FFE4756005CAA9A /* TeratailClientUITests */,
+				89DD86051FFE4756005CAA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DD86051FFE4756005CAA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DD86041FFE4756005CAA9A /* TeratailClient.app */,
+				89DD86181FFE4756005CAA9A /* TeratailClientTests.xctest */,
+				89DD86231FFE4756005CAA9A /* TeratailClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DD86061FFE4756005CAA9A /* TeratailClient */ = {
+			isa = PBXGroup;
+			children = (
+				89DD86071FFE4756005CAA9A /* AppDelegate.swift */,
+				89DD86091FFE4756005CAA9A /* ViewController.swift */,
+				89DD860B1FFE4756005CAA9A /* Main.storyboard */,
+				89DD860E1FFE4756005CAA9A /* Assets.xcassets */,
+				89DD86101FFE4756005CAA9A /* LaunchScreen.storyboard */,
+				89DD86131FFE4756005CAA9A /* Info.plist */,
+			);
+			path = TeratailClient;
+			sourceTree = "<group>";
+		};
+		89DD861B1FFE4756005CAA9A /* TeratailClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				89DD861C1FFE4756005CAA9A /* TeratailClientTests.swift */,
+				89DD861E1FFE4756005CAA9A /* Info.plist */,
+			);
+			path = TeratailClientTests;
+			sourceTree = "<group>";
+		};
+		89DD86261FFE4756005CAA9A /* TeratailClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89DD86271FFE4756005CAA9A /* TeratailClientUITests.swift */,
+				89DD86291FFE4756005CAA9A /* Info.plist */,
+			);
+			path = TeratailClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DD86031FFE4756005CAA9A /* TeratailClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DD862C1FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClient" */;
+			buildPhases = (
+				89DD86001FFE4756005CAA9A /* Sources */,
+				89DD86011FFE4756005CAA9A /* Frameworks */,
+				89DD86021FFE4756005CAA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeratailClient;
+			productName = TeratailClient;
+			productReference = 89DD86041FFE4756005CAA9A /* TeratailClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89DD86171FFE4756005CAA9A /* TeratailClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DD862F1FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClientTests" */;
+			buildPhases = (
+				89DD86141FFE4756005CAA9A /* Sources */,
+				89DD86151FFE4756005CAA9A /* Frameworks */,
+				89DD86161FFE4756005CAA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DD861A1FFE4756005CAA9A /* PBXTargetDependency */,
+			);
+			name = TeratailClientTests;
+			productName = TeratailClientTests;
+			productReference = 89DD86181FFE4756005CAA9A /* TeratailClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89DD86221FFE4756005CAA9A /* TeratailClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DD86321FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClientUITests" */;
+			buildPhases = (
+				89DD861F1FFE4756005CAA9A /* Sources */,
+				89DD86201FFE4756005CAA9A /* Frameworks */,
+				89DD86211FFE4756005CAA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DD86251FFE4756005CAA9A /* PBXTargetDependency */,
+			);
+			name = TeratailClientUITests;
+			productName = TeratailClientUITests;
+			productReference = 89DD86231FFE4756005CAA9A /* TeratailClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DD85FC1FFE4755005CAA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nakasho;
+				TargetAttributes = {
+					89DD86031FFE4756005CAA9A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					89DD86171FFE4756005CAA9A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89DD86031FFE4756005CAA9A;
+					};
+					89DD86221FFE4756005CAA9A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89DD86031FFE4756005CAA9A;
+					};
+				};
+			};
+			buildConfigurationList = 89DD85FF1FFE4755005CAA9A /* Build configuration list for PBXProject "TeratailClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DD85FB1FFE4755005CAA9A;
+			productRefGroup = 89DD86051FFE4756005CAA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DD86031FFE4756005CAA9A /* TeratailClient */,
+				89DD86171FFE4756005CAA9A /* TeratailClientTests */,
+				89DD86221FFE4756005CAA9A /* TeratailClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DD86021FFE4756005CAA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DD86121FFE4756005CAA9A /* LaunchScreen.storyboard in Resources */,
+				89DD860F1FFE4756005CAA9A /* Assets.xcassets in Resources */,
+				89DD860D1FFE4756005CAA9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DD86161FFE4756005CAA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DD86211FFE4756005CAA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DD86001FFE4756005CAA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DD860A1FFE4756005CAA9A /* ViewController.swift in Sources */,
+				89DD86081FFE4756005CAA9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DD86141FFE4756005CAA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DD861D1FFE4756005CAA9A /* TeratailClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DD861F1FFE4756005CAA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DD86281FFE4756005CAA9A /* TeratailClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DD861A1FFE4756005CAA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DD86031FFE4756005CAA9A /* TeratailClient */;
+			targetProxy = 89DD86191FFE4756005CAA9A /* PBXContainerItemProxy */;
+		};
+		89DD86251FFE4756005CAA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DD86031FFE4756005CAA9A /* TeratailClient */;
+			targetProxy = 89DD86241FFE4756005CAA9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89DD860B1FFE4756005CAA9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DD860C1FFE4756005CAA9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89DD86101FFE4756005CAA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DD86111FFE4756005CAA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89DD862A1FFE4756005CAA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DD862B1FFE4756005CAA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DD862D1FFE4756005CAA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 862947V3YT;
+				INFOPLIST_FILE = TeratailClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89DD862E1FFE4756005CAA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 862947V3YT;
+				INFOPLIST_FILE = TeratailClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89DD86301FFE4756005CAA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 862947V3YT;
+				INFOPLIST_FILE = TeratailClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeratailClient.app/TeratailClient";
+			};
+			name = Debug;
+		};
+		89DD86311FFE4756005CAA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 862947V3YT;
+				INFOPLIST_FILE = TeratailClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeratailClient.app/TeratailClient";
+			};
+			name = Release;
+		};
+		89DD86331FFE4756005CAA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 862947V3YT;
+				INFOPLIST_FILE = TeratailClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeratailClient;
+			};
+			name = Debug;
+		};
+		89DD86341FFE4756005CAA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 862947V3YT;
+				INFOPLIST_FILE = TeratailClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeratailClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DD85FF1FFE4755005CAA9A /* Build configuration list for PBXProject "TeratailClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DD862A1FFE4756005CAA9A /* Debug */,
+				89DD862B1FFE4756005CAA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DD862C1FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DD862D1FFE4756005CAA9A /* Debug */,
+				89DD862E1FFE4756005CAA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DD862F1FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DD86301FFE4756005CAA9A /* Debug */,
+				89DD86311FFE4756005CAA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DD86321FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DD86331FFE4756005CAA9A /* Debug */,
+				89DD86341FFE4756005CAA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DD85FC1FFE4755005CAA9A /* Project object */;
+}
