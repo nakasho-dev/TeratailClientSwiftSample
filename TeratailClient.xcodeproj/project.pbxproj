@@ -13,6 +13,8 @@
 		89DD86121FFE4756005CAA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DD86101FFE4756005CAA9A /* LaunchScreen.storyboard */; };
 		89DD861D1FFE4756005CAA9A /* TeratailClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD861C1FFE4756005CAA9A /* TeratailClientTests.swift */; };
 		89DD86281FFE4756005CAA9A /* TeratailClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86271FFE4756005CAA9A /* TeratailClientUITests.swift */; };
+		89DD86381FFE7CE9005CAA9A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DD86361FFE7CE9005CAA9A /* Nimble.framework */; };
+		89DD86391FFE7CE9005CAA9A /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DD86371FFE7CE9005CAA9A /* TinyConstraints.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		89DD86231FFE4756005CAA9A /* TeratailClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeratailClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DD86271FFE4756005CAA9A /* TeratailClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeratailClientUITests.swift; sourceTree = "<group>"; };
 		89DD86291FFE4756005CAA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DD86361FFE7CE9005CAA9A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		89DD86371FFE7CE9005CAA9A /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DD86381FFE7CE9005CAA9A /* Nimble.framework in Frameworks */,
+				89DD86391FFE7CE9005CAA9A /* TinyConstraints.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,7 @@
 				89DD861B1FFE4756005CAA9A /* TeratailClientTests */,
 				89DD86261FFE4756005CAA9A /* TeratailClientUITests */,
 				89DD86051FFE4756005CAA9A /* Products */,
+				89DD86351FFE7CE9005CAA9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +129,15 @@
 			path = TeratailClientUITests;
 			sourceTree = "<group>";
 		};
+		89DD86351FFE7CE9005CAA9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89DD86361FFE7CE9005CAA9A /* Nimble.framework */,
+				89DD86371FFE7CE9005CAA9A /* TinyConstraints.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +148,7 @@
 				89DD86001FFE4756005CAA9A /* Sources */,
 				89DD86011FFE4756005CAA9A /* Frameworks */,
 				89DD86021FFE4756005CAA9A /* Resources */,
+				89DD863A1FFE7D30005CAA9A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +166,7 @@
 				89DD86141FFE4756005CAA9A /* Sources */,
 				89DD86151FFE4756005CAA9A /* Frameworks */,
 				89DD86161FFE4756005CAA9A /* Resources */,
+				89DD863B1FFE7E41005CAA9A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -249,6 +267,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89DD863A1FFE7D30005CAA9A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/TinyConstraints.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		89DD863B1FFE7E41005CAA9A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89DD86001FFE4756005CAA9A /* Sources */ = {
@@ -416,6 +465,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 862947V3YT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TeratailClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +485,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 862947V3YT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TeratailClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
