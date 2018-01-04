@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		89DD86081FFE4756005CAA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86071FFE4756005CAA9A /* AppDelegate.swift */; };
-		89DD860A1FFE4756005CAA9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86091FFE4756005CAA9A /* ViewController.swift */; };
-		89DD860D1FFE4756005CAA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DD860B1FFE4756005CAA9A /* Main.storyboard */; };
+		89DD860A1FFE4756005CAA9A /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86091FFE4756005CAA9A /* QuestionsViewController.swift */; };
 		89DD860F1FFE4756005CAA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DD860E1FFE4756005CAA9A /* Assets.xcassets */; };
 		89DD86121FFE4756005CAA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DD86101FFE4756005CAA9A /* LaunchScreen.storyboard */; };
 		89DD861D1FFE4756005CAA9A /* TeratailClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD861C1FFE4756005CAA9A /* TeratailClientTests.swift */; };
@@ -36,8 +35,7 @@
 /* Begin PBXFileReference section */
 		89DD86041FFE4756005CAA9A /* TeratailClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeratailClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DD86071FFE4756005CAA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89DD86091FFE4756005CAA9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		89DD860C1FFE4756005CAA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89DD86091FFE4756005CAA9A /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		89DD860E1FFE4756005CAA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DD86111FFE4756005CAA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DD86131FFE4756005CAA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,8 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				89DD86071FFE4756005CAA9A /* AppDelegate.swift */,
-				89DD86091FFE4756005CAA9A /* ViewController.swift */,
-				89DD860B1FFE4756005CAA9A /* Main.storyboard */,
+				89DD86091FFE4756005CAA9A /* QuestionsViewController.swift */,
 				89DD860E1FFE4756005CAA9A /* Assets.xcassets */,
 				89DD86101FFE4756005CAA9A /* LaunchScreen.storyboard */,
 				89DD86131FFE4756005CAA9A /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				89DD86121FFE4756005CAA9A /* LaunchScreen.storyboard in Resources */,
 				89DD860F1FFE4756005CAA9A /* Assets.xcassets in Resources */,
-				89DD860D1FFE4756005CAA9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89DD860A1FFE4756005CAA9A /* ViewController.swift in Sources */,
+				89DD860A1FFE4756005CAA9A /* QuestionsViewController.swift in Sources */,
 				89DD86081FFE4756005CAA9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		89DD860B1FFE4756005CAA9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				89DD860C1FFE4756005CAA9A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		89DD86101FFE4756005CAA9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,11 +417,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 862947V3YT;
 				INFOPLIST_FILE = TeratailClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +433,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 862947V3YT;
 				INFOPLIST_FILE = TeratailClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.ukky.app.TeratailClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
