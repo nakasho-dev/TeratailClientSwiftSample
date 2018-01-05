@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		108825326F511DB8ACDDCE7A /* Pods_TeratailClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C4D1D7C00F57ABB4CD0E97 /* Pods_TeratailClient.framework */; };
+		1586D24897C9A12D4E2615A3 /* Pods_TeratailClientUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2134AA68D02D0FE6F6DF0EAC /* Pods_TeratailClientUITests.framework */; };
+		3F1F9F7F6221F1D0C807ABFC /* Pods_TeratailClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6117D2967679EC7FB0EB74A /* Pods_TeratailClientTests.framework */; };
 		89DD86081FFE4756005CAA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86071FFE4756005CAA9A /* AppDelegate.swift */; };
 		89DD860A1FFE4756005CAA9A /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD86091FFE4756005CAA9A /* QuestionsViewController.swift */; };
 		89DD860F1FFE4756005CAA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DD860E1FFE4756005CAA9A /* Assets.xcassets */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C4D1D7C00F57ABB4CD0E97 /* Pods_TeratailClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeratailClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2134AA68D02D0FE6F6DF0EAC /* Pods_TeratailClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeratailClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		467C9171AF00BF8B846C1E2B /* Pods-TeratailClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeratailClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeratailClientTests/Pods-TeratailClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		54434704F4541793DA9823F9 /* Pods-TeratailClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeratailClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeratailClient/Pods-TeratailClient.release.xcconfig"; sourceTree = "<group>"; };
+		5E50E67B770C5FADB8E74DB1 /* Pods-TeratailClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeratailClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeratailClientUITests/Pods-TeratailClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		89DD86041FFE4756005CAA9A /* TeratailClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeratailClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DD86071FFE4756005CAA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DD86091FFE4756005CAA9A /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		89DD86291FFE4756005CAA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89DD86361FFE7CE9005CAA9A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		89DD86371FFE7CE9005CAA9A /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
+		A6117D2967679EC7FB0EB74A /* Pods_TeratailClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeratailClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C753D09F50C22A3887B94D26 /* Pods-TeratailClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeratailClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeratailClientUITests/Pods-TeratailClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C3A82B41E329F29F4B032C /* Pods-TeratailClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeratailClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeratailClient/Pods-TeratailClient.debug.xcconfig"; sourceTree = "<group>"; };
+		E209D0226A98CB3A6ABA5C73 /* Pods-TeratailClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeratailClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeratailClientTests/Pods-TeratailClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			files = (
 				89DD86381FFE7CE9005CAA9A /* Nimble.framework in Frameworks */,
 				89DD86391FFE7CE9005CAA9A /* TinyConstraints.framework in Frameworks */,
+				108825326F511DB8ACDDCE7A /* Pods_TeratailClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1F9F7F6221F1D0C807ABFC /* Pods_TeratailClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1586D24897C9A12D4E2615A3 /* Pods_TeratailClientUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41FBC7F075E01B4A690C53E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8C3A82B41E329F29F4B032C /* Pods-TeratailClient.debug.xcconfig */,
+				54434704F4541793DA9823F9 /* Pods-TeratailClient.release.xcconfig */,
+				E209D0226A98CB3A6ABA5C73 /* Pods-TeratailClientTests.debug.xcconfig */,
+				467C9171AF00BF8B846C1E2B /* Pods-TeratailClientTests.release.xcconfig */,
+				5E50E67B770C5FADB8E74DB1 /* Pods-TeratailClientUITests.debug.xcconfig */,
+				C753D09F50C22A3887B94D26 /* Pods-TeratailClientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		89DD85FB1FFE4755005CAA9A = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +114,7 @@
 				89DD86261FFE4756005CAA9A /* TeratailClientUITests */,
 				89DD86051FFE4756005CAA9A /* Products */,
 				89DD86351FFE7CE9005CAA9A /* Frameworks */,
+				41FBC7F075E01B4A690C53E2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +163,9 @@
 			children = (
 				89DD86361FFE7CE9005CAA9A /* Nimble.framework */,
 				89DD86371FFE7CE9005CAA9A /* TinyConstraints.framework */,
+				04C4D1D7C00F57ABB4CD0E97 /* Pods_TeratailClient.framework */,
+				A6117D2967679EC7FB0EB74A /* Pods_TeratailClientTests.framework */,
+				2134AA68D02D0FE6F6DF0EAC /* Pods_TeratailClientUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,10 +177,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89DD862C1FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClient" */;
 			buildPhases = (
+				5063AD46DCB2EED1876D9D51 /* [CP] Check Pods Manifest.lock */,
 				89DD86001FFE4756005CAA9A /* Sources */,
 				89DD86011FFE4756005CAA9A /* Frameworks */,
 				89DD86021FFE4756005CAA9A /* Resources */,
 				89DD863A1FFE7D30005CAA9A /* ShellScript */,
+				F523CE3E4D08846D19384096 /* [CP] Embed Pods Frameworks */,
+				4957BD96452B4B751F3DBD36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +198,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89DD862F1FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClientTests" */;
 			buildPhases = (
+				D37251DEFD5E07DC7FCA1F01 /* [CP] Check Pods Manifest.lock */,
 				89DD86141FFE4756005CAA9A /* Sources */,
 				89DD86151FFE4756005CAA9A /* Frameworks */,
 				89DD86161FFE4756005CAA9A /* Resources */,
 				89DD863B1FFE7E41005CAA9A /* ShellScript */,
+				54FE3613FE09F123CA5DB67F /* [CP] Embed Pods Frameworks */,
+				4152E71B99373E6D8A043E87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89DD86321FFE4756005CAA9A /* Build configuration list for PBXNativeTarget "TeratailClientUITests" */;
 			buildPhases = (
+				2F8C7090F8CE5D1142481057 /* [CP] Check Pods Manifest.lock */,
 				89DD861F1FFE4756005CAA9A /* Sources */,
 				89DD86201FFE4756005CAA9A /* Frameworks */,
 				89DD86211FFE4756005CAA9A /* Resources */,
+				FE0560E2D1D50D84A1C20915 /* [CP] Embed Pods Frameworks */,
+				6AC244B501F3B05BA236643B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +310,102 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F8C7090F8CE5D1142481057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeratailClientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4152E71B99373E6D8A043E87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeratailClientTests/Pods-TeratailClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4957BD96452B4B751F3DBD36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeratailClient/Pods-TeratailClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5063AD46DCB2EED1876D9D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeratailClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54FE3613FE09F123CA5DB67F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeratailClientTests/Pods-TeratailClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC244B501F3B05BA236643B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeratailClientUITests/Pods-TeratailClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		89DD863A1FFE7D30005CAA9A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,6 +433,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		D37251DEFD5E07DC7FCA1F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeratailClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F523CE3E4D08846D19384096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeratailClient/Pods-TeratailClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0560E2D1D50D84A1C20915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeratailClientUITests/Pods-TeratailClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -461,6 +646,7 @@
 		};
 		89DD862D1FFE4756005CAA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C3A82B41E329F29F4B032C /* Pods-TeratailClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +667,7 @@
 		};
 		89DD862E1FFE4756005CAA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54434704F4541793DA9823F9 /* Pods-TeratailClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +688,7 @@
 		};
 		89DD86301FFE4756005CAA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E209D0226A98CB3A6ABA5C73 /* Pods-TeratailClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +706,7 @@
 		};
 		89DD86311FFE4756005CAA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467C9171AF00BF8B846C1E2B /* Pods-TeratailClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +724,7 @@
 		};
 		89DD86331FFE4756005CAA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E50E67B770C5FADB8E74DB1 /* Pods-TeratailClientUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +741,7 @@
 		};
 		89DD86341FFE4756005CAA9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C753D09F50C22A3887B94D26 /* Pods-TeratailClientUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
